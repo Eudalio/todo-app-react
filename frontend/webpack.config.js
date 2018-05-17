@@ -12,7 +12,7 @@ module.exports = {
         contentBase: './public',
     },
     resolve: {
-        extension: ['','.js', '.jsx'],
+        extensions: ['', '.js', '.jsx'],
         alias: {
             modules: __dirname + '/node_modules'
         }
@@ -27,7 +27,7 @@ module.exports = {
             exclude: /node_modules/,
             query: {
                 presets: ['es2015', 'react'],
-                plugins: ['trnsform-object-rest-spread']
+                plugins: ['transform-object-rest-spread']
             }
         }, {
             test: /\.css$/,
