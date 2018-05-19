@@ -3,8 +3,7 @@ import PageHeader from '../template/pageHeader'
 
 export default props => (
     <div>
-        <h2>Nossa história</h2>
-        <h2>Missão</h2>
-        <h2>Imprensa</h2>
+        <PageHeader name='Tarefas' small='Sobre'/>
+        <h2>Está página tem apenas o intuito de testar a navegação.</h2>
     </div>
 )
