@@ -24,11 +24,11 @@ export default props => {
     }
 
     return (
-        <table className="className">
+        <table className="table">
             <thead>
                 <tr>
                     <th>Descrição</th>
-                    <th>Ações</th>
+                    <th className='tableActions'>Ações</th>
                 </tr>
             </thead>
 
